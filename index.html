@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-in">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stone, Paper, Scissor - ishang-dev</title>
+  </head>
+  <link rel="icon" type="image/png" sizes="32x32" href="icon.png" />
+  <link rel="stylesheet" href="style.css" />
+
+  <body>
+    <p class="title">Stone, Paper, Scissor</p>
+    <div class="button-emoji">
+      <button title="Rock" class="move-button rock-button">&#9994;</button>
+      <button title="Paper" class="move-button paper-button">&#9995;</button>
+      <button
+        title="Scissor"
+        class="move-button scissor-button"
+        id="scissor-button"
+      >
+        &#9996;
+      </button>
+    </div>
+    <div class="info-text">
+      <p class="js-moves"></p>
+      <p class="js-result"></p>
+      <p class="js-score"></p>
+    </div>
+    <div class="button-text">
+      <button class="reset-button">Reset score</button>
+      <button class="autoplay-button">Autoplay</button>
+    </div>
+    <div class="js-reset-confirmation" id="js-reset-confirmation"></div>
+    <script src="main.js"></script>
+    <script src="event.js"></script>
+  </body>
+</html>

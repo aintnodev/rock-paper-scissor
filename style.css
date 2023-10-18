@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Color+Emoji&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: rgb(25, 25, 25);
+  color: white;
+  text-align: center;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-emoji {
+  margin: 16px 0px;
+}
+
+.move-button {
+  font-family: "Noto Color Emoji", sans-serif;
+  width: 120px;
+  height: 120px;
+  font-size: 44px;
+  background-color: transparent;
+  border: 3.4px solid white;
+  border-radius: 60px;
+  margin: 3px;
+  vertical-align: middle;
+}
+
+.move-button {
+  transition: all 0.2s;
+}
+
+.move-button:hover {
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.move-button:active {
+  font-size: 44px;
+}
+
+.info-text {
+  font-family: "Noto Color Emoji", sans-serif;
+  padding: 8px 0px;
+}
+
+.js-moves {
+  vertical-align: middle;
+}
+
+.move-span {
+  font-size: 24px;
+}
+
+.js-result {
+  font-weight: bold;
+}
+
+.js-score {
+  font-family: "Inter", sans-serif;
+}
+
+.button-text {
+  margin-top: 16px;
+}
+
+.reset-button,
+.autoplay-button {
+  font-size: 14px;
+  font-weight: bold;
+  background-color: white;
+  border: 3px solid white;
+  padding: 12px 24px;
+  border-radius: 32px;
+  margin: 3px;
+  transition: all 0.2s;
+}
+
+.reset-button:hover,
+.autoplay-button:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.css-reset-confirmation {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  padding: 12px 16px 28px 16px;
+}
+
+.reset-confirm-button {
+  font-weight: bold;
+  background-color: white;
+  border: 2px solid white;
+  padding: 8px 16px;
+  border-radius: 32px;
+  margin: 3px;
+  transition: all 0.2s;
+}
+
+.reset-confirm-button:hover {
+  background-color: transparent;
+  color: white;
+}
+
+body.dim-background > *:not(.css-reset-confirmation) {
+  opacity: 0.1;
+  filter: blur(5px);
+}
